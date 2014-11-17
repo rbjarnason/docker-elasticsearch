@@ -1,6 +1,8 @@
 # This image based on https://github.com/dockerfile/elasticsearch (1.3.2)
 FROM dockerfile/java:oracle-java7
 
+RUN echo 'version 0.3'
+
 # Install ElasticSearch.
 RUN \
   cd /tmp && \

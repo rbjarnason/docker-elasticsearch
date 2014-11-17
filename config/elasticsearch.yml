@@ -1,5 +1,5 @@
-4th:
-data: /data/data
-logs: /data/log
-plugins: /data/plugins
-work: /data/work
+path:
+  data: /data/data
+  logs: /data/log
+  plugins: /data/plugins
+  work: /data/work
