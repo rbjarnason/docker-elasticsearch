@@ -3,6 +3,5 @@ path:
   logs: /data/log
   plugins: /data/plugins
   work: /data/work
-http:
-  cors.enabled: true
-  cors.allow-origin": "*"
+http.cors.allow-origin: "*"
+http.cors.enabled: true
